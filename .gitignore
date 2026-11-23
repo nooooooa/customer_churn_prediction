@@ -22,6 +22,9 @@ env/
 # Dataset - raw data
 data/raw/*
 
+# Dataset - processed data
+data/process/*
+
 # Temporary files
 *.log
 .DS_Store
