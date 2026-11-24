@@ -4,40 +4,41 @@
 - Total customers: 7043
 - Churned customers: 1869
 - Churn rate: 26.54%
-- Key finding: Sebagian besar pelanggan masih bertahan, tetapi tingkat churn tetap perlu diperhatikan oleh perusahaan.
+- Key finding: Most customers are still retained, but the churn rate remains a concern that the company should pay attention to.
 
 ## 2. Customer Churn by Contract
 - Contract with highest churn: Month-to-month
-- Key finding: Pelanggan dengan komitmen berlangganan jangka pendek cenderung lebih mudah meninggalkan layanan.
+- Key finding: Customers with short-term subscription commitments tend to leave the service more easily.
 
 ## 3. Customer Tenure Distribution
-- Average tenure of churned customers: 17.98 %
-- Average tenure of retained customers: 37.57%
-- Key finding: Pelanggan yang mengalami churn memiliki rata-rata tenure lebih rendah dibandingkan pelanggan yang masih bertahan. Hal ini mengindikasikan bahwa pelanggan baru mungkin lebih rentan meninggalkan layanan.
+- Average tenure of churned customers: 17.98 months
+- Average tenure of retained customers: 37.57 months
+- Key finding: Churned customers have a lower average tenure than retained customers. This indicates that newer customers may be more likely to leave the service.
 
 ## 4. Monthly Charges by Churn
-- Average monthly charges of churned customers: 74.44%
-- Average monthly charges of retained customers: 61.27%
-- Key finding: Pelanggan yang berhenti berlangganan cenderung membayar biaya bulanan yang lebih tinggi dibandingkan pelanggan yang tetap bertahan.
+- Average monthly charges of churned customers: 74.44
+- Average monthly charges of retained customers: 61.27
+- Key finding: Customers who cancel their subscription tend to pay higher monthly charges than those who stay.
 
 ## 5. Numerical Correlation
-- Strongest positive correlation: Tenure - TotalChanges, MonthlyCharges - TotalCharges
+- Strongest positive correlation: Tenure - TotalCharges, MonthlyCharges - TotalCharges
 - Strongest negative correlation: Tenure - SeniorCitizen
-- Key finding: pelanggan yang sudah lama berlangganan cenderung memiliki total biaya yang lebih besar, pelanggan dengan biaya bulanan lebih tinggi cenderung memiliki total pengeluaran lebih besar. 
+- Key finding: Customers who have subscribed for a long time tend to have higher total charges, and customers with higher monthly charges tend to have higher total spending.
 
 ## 6. Business Recommendations
-1. Meningkatkan Retensi Pelanggan untuk Kontrak Bulanan
 
-Pelanggan dengan kontrak bulanan memiliki tingkat *churn* tertinggi dibandingkan jenis kontrak lainnya. Perusahaan sebaiknya mempertimbangkan untuk menawarkan insentif, diskon, atau manfaat tambahan guna mendorong pelanggan beralih ke kontrak jangka panjang.
+1. Improve Retention for Month-to-Month Contract Customers
 
-2. Memperkuat Program *Onboarding* dan Retensi Awal Pelanggan
+Customers on month-to-month contracts have the highest *churn* rate compared to other contract types. The company should consider offering incentives, discounts, or additional benefits to encourage customers to switch to longer-term contracts.
 
-Pelanggan yang berhenti berlangganan memiliki masa berlangganan rata-rata yang lebih singkat (17,98 bulan) dibandingkan pelanggan yang tetap bertahan (37,57 bulan). Perusahaan perlu mengembangkan program *onboarding* yang lebih baik, menyediakan dukungan pelanggan sejak awal, serta melakukan tindak lanjut secara berkala kepada pelanggan baru untuk meningkatkan retensi.
+2. Strengthen Onboarding and Early-Stage Customer Retention Programs
 
-3. Mengevaluasi Penetapan Harga Bulanan dan Paket Layanan
+Churned customers have a shorter average subscription period (17.98 months) than retained customers (37.57 months). The company should develop a better *onboarding* program, provide customer support from the start, and conduct regular follow-ups with new customers to improve retention.
 
-Pelanggan yang berhenti berlangganan memiliki rata-rata biaya bulanan yang lebih tinggi (74,44) dibandingkan pelanggan yang tetap bertahan (61,27). Perusahaan sebaiknya mengevaluasi strategi penetapan harga, meninjau kembali paket layanan, dan menawarkan paket yang lebih fleksibel untuk memastikan pelanggan mendapatkan nilai yang sepadan dengan pengeluaran mereka.
+3. Evaluate Monthly Pricing and Service Plans
 
-Kesimpulan
+Churned customers have a higher average monthly charge (74.44) than retained customers (61.27). The company should evaluate its pricing strategy, review its service plans, and offer more flexible packages to ensure customers receive value that matches what they spend.
 
-Hasil EDA menunjukkan bahwa jenis kontrak, masa berlangganan, dan biaya bulanan merupakan faktor penting yang perlu diteliti lebih lanjut untuk memahami fenomena *churn* pelanggan. Temuan ini dapat membantu perusahaan dalam menyusun strategi retensi pelanggan yang lebih tepat sasaran. Analisis lebih mendalam dan pemodelan prediktif diperlukan untuk mengidentifikasi pelanggan yang memiliki risiko lebih tinggi untuk berhenti berlangganan.
+## Conclusion
+
+The EDA results show that contract type, tenure, and monthly charges are important factors that warrant further investigation to understand customer *churn*. These findings can help the company design more targeted retention strategies. Deeper analysis and predictive modeling are needed to identify customers at higher risk of churning.
